@@ -1,0 +1,155 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link href="menu.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <header>
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="https://media.istockphoto.com/id/981368726/vector/restaurant-food-drinks-logo-fork-knife-background-vector-image.jpg?s=612x612&w=0&k=20&c=9M26CBkCyEBqUPs3Ls5QCjYLZrB9sxwrSFmnAmNCopI=" alt="Logo"  class="d-inline-block align-text-top">
+            مطعم ايمن
+            </a> <div class="d-flex" role="search">
+          <a href="index.html"class="icon-link icon-link-hover">Home</a>
+          <a href="menu.html"class="icon-link icon-link-hover">Menu</a>
+
+          <a href="contact.html" class="icon-link icon-link-hover">Contact</a>
+        </div>
+        </div>
+      </nav>
+    </header>
+<main>
+  
+  <section class="body">
+    
+  
+<hr/>
+  </section>
+  <section>
+    <div class="card" >
+        <img id="image1" src="https://kitchen.sayidaty.net/uploads/small/14/14e3e24f057a7be86e3692eeae6dd8a1_w750_h500.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">الكبسة السعودية</h5>
+          <p class="card-text">طبق أرز سعودي تقليدي مطهو مع اللحم أو الدجاج، مضاف إليه التوابل المميزة مثل الزعفران والقرنفل والهيل. يتم تقديمه مع سلطة جانبية أو لبن.</p>
+          <label id ="price" onmouseover="onMouseHover(this)" onmouseleave="onMouseLeave(this)">35 JOD</label>
+          <a href="#" class="btn btn-primary" onclick="changeImage('image1')">Choose the meal</a>
+        </div>
+      </div>
+      <div class="card" >
+        <img id="image2" src="https://static.webteb.net/images/content/ramadanrecipe_recipe_9_4091e4b9c94-e089-4fff-9ccb-09cdba634024.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">المنسف الاردني</h5>
+          <p class="card-text">طبق أردني شهير يتكون من لحم الغنم المطهو مع اللبن الجميد ويقدم فوق الأرز، مع خبز الشراك. يعتبر رمزاً للكرم والضيافة.</p>
+          <label id ="price" onmouseover="onMouseHover(this)" onmouseleave="onMouseLeave(this)">40 JOD</label>
+          <a href="#" class="btn btn-primary"  onclick="changeImage('image2')">Choose the meal</a>
+        </div>
+      </div>
+      <div class="card" >
+        <img id="image3" src="https://kitchen.sayidaty.net/uploads/small/e8/e897d354a069587cbd51689ffa2d5139_w750_h750.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">الكشري المصري</h5>
+          <p class="card-text">وجبة شعبية مصرية تحتوي على مزيج من الأرز، العدس، المكرونة، والحمص. يُضاف فوقها صلصة الطماطم الحارة والبصل المقرمش.</p>
+          <label id ="price"  onmouseover="onMouseHover(this)" onmouseleave="onMouseLeave(this)">15 JOD</label>
+          <a href="#" class="btn btn-primary"  onclick="changeImage('image3')">Choose the meal</a>
+        </div>
+        
+      </div>
+      <div class="card" >
+        <img id="image4" src="https://kitchen.sayidaty.net/uploads/small/07/07b56cc91141e2eea94e7690b3ad2485_w750_h750.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">شاورما الدجاج</h5>
+          <p class="card-text">شرائح دجاج مشوية على السيخ تقدم داخل خبز التورتيلا مع صوص الثوم والخضروات.</p>
+          <label id ="price" onmouseover="onMouseHover(this)"onmouseleave="onMouseLeave(this)">10 JOD</label>
+          <a href="#" class="btn btn-primary"  onclick="changeImage('image4')">Choose the meal</a>
+        </div>
+      </div>
+      <div class="card" >
+        <img id="image5" src="https://cdn-rdb.arla.com/kraft-ar/kraft-x-hassans-juicy-beef-burger-special-edition/3722663180.jpg?w=768&h=400&mode=crop&ak=617569bf&hm=694be998" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">برجر لحم مشوي مغطى بصلصة العسل والخردل مع جبن شيدر وخس طازج.</p>
+          <label id ="price" onmouseover="onMouseHover(this)" onmouseleave="onMouseLeave(this)">20 JOD</label>
+          <a href="#" class="btn btn-primary"  onclick="changeImage('image5')">Choose the meal</a>
+        </div>
+      </div>
+      <div class="card" >
+        <img id="image6" src="https://kitchen.sayidaty.net/uploads/small/43/438412ac26e87cea395e671eb2ad1195_w750_h750.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text"> بيتزا إيطالية كلاسيكية تتكون من عجينة رقيقة، صلصة الطماطم، جبنة الموزاريلا، وريحان طازج.</p>
+          <label id ="price" onmouseover="onMouseHover(this)" onmouseleave="onMouseLeave(this)">25 JOD</label>
+          <a href="#" class="btn btn-primary"  onclick="changeImage('image6')">Choose the meal</a>
+        </div>
+        
+      </div>
+  </section>
+</main>
+
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+  
+      <div>
+        <a href="https://www.facebook.com/ayman.adas.98" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.instagram.com/aymahaniadas28/" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://jo.linkedin.com/in/ayman-adas-3bba61286" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/ayman-adas" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    
+    </section>
+        <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>مطعم ايمن
+            </h6>
+            <p>
+                فكرة مطعم تعتمد على تقديم أطباق مميزة بتوقيع أيمن. إليك بعض الأفكار التي يمكن أن تساهم في نجاح مطعمك:
+            </p>
+          </div>
+    
+        
+  
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> الاردن عمان</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+aymanhaniadas28@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 962 777 60 2924</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">
+    </div>
+  </footer>
+  <script src="menu.js"></script>
+
+  </body>
+</html>

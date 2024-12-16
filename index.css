@@ -1,0 +1,40 @@
+.d-inline-block{
+    height: 5%;
+    width: 5%;
+}
+.icon-link{
+    padding: 10px;
+}
+.greeting{
+    background-color: black;
+    color: wheat;
+    width: 100%;
+    animation: fadeInOut 4s infinite;
+
+}
+body{
+    margin: 0;
+}
+
+@keyframes fadeInOut {
+    0%, 25% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(60px); 
+    }
+    100% {
+        transform: translateX(110px);
+    }
+  }
+.img-fluid{
+    display: inline;
+    border-radius: 10px;
+    height: 65% !important;
+    border-radius: 10px; 
+    width: 100%;
+    padding-top: 10px;
+}
+ main section p{
+   text-align: center;
+ } 
